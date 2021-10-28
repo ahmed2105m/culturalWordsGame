@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brownLight"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/shearButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pie_right"
+        android:contentDescription="@string/change_question"
+        android:src="@drawable/ic_share_white_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <ImageButton
+        android:id="@+id/languageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pie_left"
+        android:contentDescription="@string/change_question"
+        android:src="@drawable/ic_language_white_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/answerButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rounded_rectangle_right"
+        android:contentDescription="@string/change_question"
+        android:src="@drawable/ic_help_white_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/changeButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rounded_rectangle_left"
+        android:contentDescription="@string/change_question"
+        android:src="@drawable/ic_change_question_white_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/languageButton"
+        app:layout_constraintStart_toEndOf="@+id/shearButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        app:layout_constraintBottom_toTopOf="@+id/answerButton"
+        app:layout_constraintDimensionRatio="5:7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageButton"
+        app:srcCompat="@drawable/icon_1"
+        style="@style/center_ui" />
+</androidx.constraintlayout.widget.ConstraintLayout>

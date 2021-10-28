@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CulturalWordsGame</string>
+    <string name="share_the_question_with_friends">Ask Your Friend</string>
+    <string name="share_question_text">Shear</string>
+    <string name="share_title_hint">Add title</string>
+    <string name="the_right_answer_is">Right Answer</string>
+    <string name="back_text">Back</string>
+    <string name="permission_title">Clarification</string>
+    <string name="permission_explanation">The Application needs to obtain the validity of the external volume to store the image in preparation for its participation through other applications</string>
+    <string name="permission_denied">The operation has not been implemented because the crisis powers are not granted</string>
+    <string name="change_question">Change Question</string>
+    <string name="change_language">ChangeLanguage</string>
+    <string name="qfinish">Q Finish</string>
+    <string name="share_title">Share Title</string>
+    <string name="Share">share</string>
+    <string name="send_to">Send To</string>
+    <string name="share_image">Share Image</string>
+
+
+    <string-array name="answers">
+        <item>3aqal</item>
+        <item>farawah</item>
+        <item>sido</item>
+        <item>Henna</item>
+        <item>dalah</item>
+        <item>khaf</item>
+        <item>khangar</item>
+        <item>namarqah</item>
+        <item>qandil / siraj</item>
+        <item>fanos</item>
+        <item>tarboosh</item>
+        <item>3amamah</item>
+        <item>Dashdasha</item>
+    </string-array>
+
+    <string-array name="answer_description">
+        <item>English{يوضع فوق الحطّة\الغترة لتثبيتها}English</item>
+        <item>English{مبطنة بالصوف، تلبس في الشتاء للوقاية من البرد}English</item>
+        <item>English{أحد أنواع النسيج البدوي التقليدي}English</item>
+        <item>English{تستخدم في صبغ الشعر واللحية، كما تستخدم أيضاً في تجميل الأيدي بالنسبة للنساء}English</item>
+        <item>English{الوعاء المستخدم في تقديم القهوة عند العرب}English</item>
+        <item>English{مصنوع من الجلد، يُلبس في القدم، اشتُهر قديماً عند العرب}English</item>
+        <item>English{سلاح أبيض صغير يوضع على الخصر}English</item>
+        <item>English{وسادة صغيرة يُتكأ عليها}English</item>
+        <item>English{اسم الاداة التي كانت تُستخدم للإضاءة قديما}English</item>
+        <item>English{أداة تُستخدم للإضاءة والزينة}English</item>
+        <item>English{قبعة حمراء اشتهرت في بلاد الشام ومصر والمغرب}English</item>
+        <item>English{غطاء يُكوّر فوق الرأس}English</item>
+        <item>English{ثوب عربي يُلبس بكثرة في دول الخليج}English</item>
+    </string-array>
+
+    <array name="lang">
+        <item>Arabic</item>
+        <item>English</item>
+    </array>
+
+</resources>
